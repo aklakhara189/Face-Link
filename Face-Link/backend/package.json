@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "face-link-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend service for Face-Link video conferencing application",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "node src/app.js",
     "prod": "pm2 src/app.js"
   },
-  "author": "apnacollege",
+  "author": "Face-Link",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
